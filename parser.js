@@ -22,7 +22,7 @@ function Parser(opts) {
     '_newPacket'
   ];
   this._stateCounter = 0;
-  this._isClient = opts.isClient || false;
+  this._isClient = opts.isClient || false;
 }
 
 inherits(Parser, EE);
